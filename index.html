@@ -1,43 +1,49 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
 
-  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-  
-  <title>Order summary card</title>
-  <link rel="stylesheet" href="clear.css">
-  <link rel="stylesheet" href="style.css">
-</head>
-<body>
-  <main>
-    <article>
-      <header>
-        <img src="./images/illustration-hero.svg" alt="hero image">
-      </header>
-      <h1>Order Summary</h1>
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
 
-      <p>You can now listen to millions of songs, audiobooks, and podcasts on any 
-        device anywhere you like!</p>
+    <title>Order summary card</title>
+    <link rel="stylesheet" href="clear.css" />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <main class="background">
+      <article class="card">
+        <header class="header-card">
+          <img src="./images/illustration-hero.svg" alt="hero image" />
+        </header>
+        <h1 class="card__headline">Order Summary</h1>
 
-      <div>
-        <div>
-          <img src="./images/icon-music.svg" alt="icon music">
+        <p class="card__paragraph">
+          You can now listen to millions of songs, audiobooks, and podcasts on
+          any device anywhere you like!
+        </p>
+
+        <div class="card-wrapper__subscription">
+          <img src="./images/icon-music.svg" alt="icon music" />
           <h2>Annual Plan</h2>
           <p>$59.99/year</p>
+
+          <div>
+            <a>Change</a>
+          </div>
         </div>
 
-        <div>
-          <a>Change</a>
-        </div>
-      </div>
-
-    <footer>
-      <button>Proceed to Payment</button>
-      <button>Cancel Order</button>
-    </footer>
-    </article>
-  </main>
-</body>
+        <footer class="card-footer">
+          <button class="button--blue">Proceed to Payment</button>
+          <button class="button--white">Cancel Order</button>
+        </footer>
+      </article>
+    </main>
+  </body>
 </html>
