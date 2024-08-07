@@ -61,9 +61,35 @@
     margin: 1.5rem;
     padding: 1rem;
     align-items: center;
+    justify-content: space-between;
 }
 
 .flex {
     display: flex;
-    justify-content: space-between;
+}
+
+.card-footer {
+    flex-direction: column;
+    margin-bottom: 2rem;
+}
+
+.button {
+    padding: 0.938rem 0;
+    border: none;
+    cursor: pointer;
+    font-size: 0.938rem;
+    font-weight: 900;
+}
+
+.button--blue {
+    margin: 1.5rem;
+    margin-bottom: 0;
+    background-color: var(--Bright-blue);
+    color: white;
+    border-radius: 11px;
+}
+
+.button--white {
+    background-color: white;
+    color: var(--Desaturated-blue);
 }
