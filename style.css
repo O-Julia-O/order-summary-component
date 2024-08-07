@@ -64,6 +64,31 @@
     justify-content: space-between;
 }
 
+.card-text__subscription {
+    justify-self: flex-start;
+}
+
+.card-headline__subscription {
+    color: var(--Dark-blue);
+    font-size: 0.875rem;
+    font-weight: 900;
+}
+
+.card-paragraph__subscription {
+    color: var(--Desaturated-blue);
+    font-size: 0.875rem;
+    font-weight: 500;
+}
+
+.card-subcription__button {
+    color: var(--Bright-blue);
+    font-size: 0.813rem;
+    font-weight: 900;
+    text-decoration: underline;
+
+    cursor: pointer;
+}
+
 .flex {
     display: flex;
 }
