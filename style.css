@@ -53,3 +53,12 @@
     font-weight: 500;
     line-height: 25px;
 }
+
+.card-wrapper__subscription {
+    background-color: var(--Very-pale-blue);
+    border-radius: 11px;
+    margin: 1.5rem;
+    padding: 1rem;
+    align-items: center;
+}
+
