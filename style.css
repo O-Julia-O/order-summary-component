@@ -45,6 +45,7 @@
     color: var(--Dark-blue);
     font-size: 1.375rem;
     font-weight: 900;
+    margin-bottom: 1rem;
 }
 
 .card__paragraph {
