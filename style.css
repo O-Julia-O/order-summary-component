@@ -21,6 +21,10 @@
 }
 
 .background {
+    background-image: url("./images/pattern-background-mobile.svg");
+    background-position: left top;
+    background-repeat: no-repeat;
+    background-size: contain;
     background-color: #E0E8FF;
     min-height: 100vh;
     display: flex;
@@ -138,6 +142,10 @@
 }
 
 @media screen and (min-width: 48em){
+    .background {
+        background-image: url("./images/pattern-background-desktop.svg");
+    }
+
     .card__text {
         margin: 3rem;
     }
