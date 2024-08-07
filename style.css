@@ -121,7 +121,7 @@
 }
 
 .button--blue {
-    margin: 1.5rem 0 0;
+    margin: 0 1.5rem 0;
     margin-bottom: 0;
     background-color: var(--Bright-blue);
     color: white;
@@ -179,5 +179,9 @@
     .card-footer {
         margin-left: 3rem;
         margin-right: 3rem;
+    } 
+
+    .button--blue {
+        margin: 0;
     }
 }
