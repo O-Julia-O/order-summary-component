@@ -42,3 +42,10 @@
     font-size: 1.375rem;
     font-weight: 900;
 }
+
+.card__paragraph {
+    color: var(--Desaturated-blue);
+    font-size: 0.938rem;
+    font-weight: 500;
+    line-height: 25px;
+}
