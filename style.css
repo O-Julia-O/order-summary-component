@@ -172,7 +172,8 @@
     }
 
     .card__text {
-        margin: 3rem;
+        margin-left: 3rem;
+        margin-right: 3rem;
     }
 
     .card-wrapper__subscription {
