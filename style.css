@@ -61,12 +61,12 @@
     margin: 1.5rem;
     padding: 1rem;
     align-items: center;
-
 }
 
 .card-text__subscription {
-    justify-self: flex-start;
-    margin-right: 3.125rem;
+    /* margin-right: 3.125rem; */
+    text-align: start;
+    flex-grow: 4;
 }
 
 .card-icon__subcsription {
@@ -135,4 +135,20 @@
 
 .button--white:hover {
     color: var(--Dark-blue);
+}
+
+@media screen and (min-width: 48em){
+    .card__text {
+        margin: 3rem;
+    }
+
+    .card-wrapper__subscription {
+        margin-left: 3rem;
+        margin-right: 3rem;
+    }
+
+    .card-footer {
+        margin-left: 3rem;
+        margin-right: 3rem;
+    }
 }
