@@ -61,11 +61,17 @@
     margin: 1.5rem;
     padding: 1rem;
     align-items: center;
-    justify-content: space-between;
+
 }
 
 .card-text__subscription {
     justify-self: flex-start;
+    margin-right: 3.125rem;
+}
+
+.card-icon__subcsription {
+    display: block;
+    margin-right: 1.25rem;
 }
 
 .card-headline__subscription {
