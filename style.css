@@ -146,6 +146,27 @@
         background-image: url("./images/pattern-background-desktop.svg");
     }
 
+    .card__headline {
+        font-size: 1.75rem;
+    }
+
+    .card__paragraph {
+        font-size: 1rem;
+        line-height: 26px;
+    }
+
+    .card-headline__subscription {
+        font-size: 1rem;
+    }
+
+    .card-paragraph__subscription {
+        font-size: 1rem;
+    }
+
+    .card-wrapper__subscription {
+        padding: 1.5rem;
+    }
+
     .card__text {
         margin: 3rem;
     }
